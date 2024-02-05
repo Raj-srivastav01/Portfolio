@@ -12,6 +12,112 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Steller main styles -->
     <link rel="stylesheet" href="assets/css/steller.css">
+    <style>
+        /* Common styles for both PC and smartphones */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Navigation styles */
+.navbar {
+    background-color: #f8f9fa; /* Light background color for navbar */
+}
+
+.navbar-toggler {
+    display: none; /* Hide the toggler on larger screens */
+}
+
+.navbar-nav {
+    text-align: center; /* Center-align navigation items on small screens */
+}
+
+/* Header styles */
+.header {
+    position: relative;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.header img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+}
+
+/* About section styles */
+#about {
+    padding: 40px 0;
+}
+
+/* Skills section styles */
+#skills {
+    padding: 40px 0;
+}
+
+/* Projects section styles */
+#Projects {
+    padding: 40px 0;
+}
+
+.card {
+    margin: 0 auto 20px; /* Center-align cards and add bottom margin */
+}
+
+/* Contact section styles */
+#contact {
+    padding: 40px 0;
+}
+
+/* Footer styles */
+.page-footer {
+    background-color: #f8f9fa; /* Light background color for footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.socials {
+    margin-top: 20px; /* Add space between social icons and copyright text */
+}
+
+/* Responsive styles for smartphones */
+@media (max-width: 767px) {
+    .navbar-toggler {
+        display: block; /* Always show the toggler on small screens */
+    }
+
+    .navbar-nav {
+        text-align: center; /* Center-align navigation items on small screens */
+    }
+
+    .header {
+        padding: 40px 0; /* Reduce header padding on small screens */
+    }
+
+    .navbar-brand img {
+        max-width: 80px; /* Adjust logo size on small screens */
+    }
+
+    .header .infos {
+        text-align: left; /* Align text to the left on small screens */
+    }
+
+    .header .img-holder {
+        display: none; /* Hide the image on small screens */
+    }
+
+    .widget {
+        text-align: center; /* Center-align widgets on small screens */
+    }
+}
+
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
